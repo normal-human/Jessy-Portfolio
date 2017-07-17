@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Labs & Doodles</title>
+    </head>
+    <style>
+    /*Jessy coded this*/
+.img{
+    width: 300px;
+    float: right;}
+p {
+    font-size: 18px;}
+    
+h2 {
+    font-size: 1.5em;
+    background: #dddddd;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #b5b5b5;}
+
+li {
+    float: right;
+    text-align: center;
+    padding: 14px 16px; }
+
+#Title { 
+    font-size: 25px;
+    float: left;}
+    </style>
+    
+    <body>
+    
+        <ul>
+            <li id= "Title" ><strong>Labs & Doodles</strong></li>
+            <li><strong>Coded by:</strong> Jessy and Gina</li>
+        </ul>
+        
+    <!--Gina wrote the paragraphs and added the picures. -->    
+
+        <h2>About</h2>
+        
+        <img src= "https://ak9.picdn.net/shutterstock/videos/4377302/thumb/1.jpg" class="img">
+        <p> My name is Ann Perkins and I'm an Ann Arbor based dog breeder who specializes in breeding. Labradors and Doodles. Each dog is specially cared for by me and my team. All puppies are available at 9 weeks old. Each puppy is housetrained and vaccinated before they are posted for sale. We do not spay or neuter our dogs, we leave that up to the owner. </p>
+        
+        <h2>Labs</h2>
+        <img src= "http://www.101dogbreeds.com/wp-content/uploads/2015/07/Golden-Labrador-Puppy-Pictures.jpg
+" class="img">
+        <p>The Lab has the reputation of being one of the most sweet-natured breeds, and it's well deserved. He's outgoing, eager to please, and friendly with both people and other animals. Aside from a winning personality, he has the intelligence and eagerness to please that make him easy to train. Training is definitely necessary because this breed has a lot of energy and exuberance. The working heritage of the Lab means he is active. This breed needs activity, both physical and mental, to keep him happy. There is some variation in the activity level of Labs: some are rowdy, others are more laid back. All thrive on activity.
+</p>
+        
+        <h2>Doodle</h2>
+        <img src= "http://dog.yumvelope.com/wp-content/uploads/2016/04/Goldendoodles-Pictures-Puppy-and-Adult.jpg
+" class="img">
+        <p>The doodle has not become popular for lack of good reason. His positive personality traits are numerous — he endears himself to everyone he meets with his friendly, intelligent, accepting nature. Usually highly affectionate, he's gentle and patient and makes a wonderful family companion, especially since he actively enjoys human company. He is loyal and, with proper training, can be highly obedient. He does have a playful side and can be mischievous if the mood hits.</p>
+            
+        <h2>Labradoodle</h2>
+        <img src= "http://www.goldendoodle-labradoodle.org/wp-content/uploads/2012/09/montanasky-labradoodlepuppiesforsale-300x208.jpg
+" class="img">
+            <p>Labradoodles are intelligent and playful. They’re great with children and make excellent family pets. They’re hypoallergenic and enjoy playing. All of our labradoodles are raised with tons of socialization, making them no strangers to other dogs or people.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+        <h2>Prices</h2>
+            <p><strong>Labs:</strong> $ 200<br>
+                <strong>Doodles:</strong> $300<br>
+                <strong>Labradoodles:</strong> $ 275
+            </p>
+        <h2>Contact Info</h2>
+        <p><strong>Phone:</strong> (734)-867-5309 <br> <strong>Email:</strong> ilovelabs@hotmail.com</p>
+    </body>
+</html>
