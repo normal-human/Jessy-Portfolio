@@ -1,0 +1,45 @@
+#wrapper{
+    width:900px;
+    height: 1200px;
+    background-color: pink;
+}
+
+#nav {
+    width: 900px;
+    height: 50px;
+    background-color: red;
+}
+
+#head {
+    width: 900px;
+    height: 225px;
+    background-color: orange;
+}
+
+#left {
+    width: 590px;
+    height:850px;
+    float: left;
+    background-color: yellow;
+}
+
+#right {
+    width: 300px;
+    height:850px;
+    float: right;
+    background-color: green;
+}
+
+#title{
+    background: #a2a2a2;
+    width: 900px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    width: 900px;
+    height: 225px;
+    background-color: purple;
+    clear: both;
+}
