@@ -1,0 +1,88 @@
+ul{list-style-type:none;}
+.wrapper{
+    background-color: #e6b3cc;
+    width: 900px;
+    height: 1000px;
+}
+body{
+    background-color: #e6b3cc;
+    float: right;
+    position:relative;
+    right: 25%;
+}
+#Beets {
+    width:900px;
+
+}
+
+#Home{
+    width:900px;
+    height:180px;
+    background-color:#bf4080;
+    text-align:center;
+    font-size: 50px;
+    line-height: 180px;
+}
+
+#About{
+    width:900px;
+    height:180px;
+    background-color:#c6538c;
+    text-align:center;
+    font-size: 50px;
+    line-height: 180px;
+}
+
+#Recipies{
+    width:900px;
+    height:180px;
+    background-color:#d279a6;
+    text-align:center;
+    font-size: 50px;
+    line-height: 180px;
+}
+
+#Order{
+    width:900px;
+    height:180px;
+    background-color:#d98cb3;
+    text-align:center;
+    font-size: 50px;
+    line-height: 180px;
+}
+
+#Contact{
+    width:900px;
+    height:180px;
+    background-color:#df9fbf;
+    text-align:center;
+    font-size: 50px;
+    line-height: 180px;
+    float: left;
+}
+ <!--Helen did this-->
+
+.div {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    font-family: sans-serif;
+
+}
+
+h1{
+    font-family:sans-serif;
+    float: right;
+    position:relative;
+    left:-50%;
+    text-align:center;}
+
+h2{
+    font-family:sans-serif;
+    float: right;
+    position:relative;
+    left:-15%;
+    line-height: 50px;
+    text-align:center;}
