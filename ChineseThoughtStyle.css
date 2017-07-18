@@ -1,0 +1,23 @@
+img {
+    height: 300px;
+    border: 5px solid;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    font-family: Helvetica, sans-sherif;
+}
+
+h1 {
+    font-family: Helvetica, sans-sherif;
+}
+h3 {
+    font-family: Helvetica, sans-sherif;
+}
