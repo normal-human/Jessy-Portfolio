@@ -1,20 +1,14 @@
- <!--Jessy did this-->
-
-ul{
-    list-style-type:none;
+ul{list-style-type:none;}
+.wrapper{
+    background-color: #e6b3cc;
+    width: 900px;
+    height: 1000px;
 }
-
 body{
     background-color: #e6b3cc;
     float: right;
     position:relative;
     right: 25%;
-}
-
-.wrapper{
-    background-color: #e6b3cc;
-    width: 900px;
-    height: 1000px;
 }
 
 #Home{
@@ -44,8 +38,6 @@ body{
     line-height: 180px;
 }
 
- <!--Helen did this-->
-
 #Order{
     width:900px;
     height:180px;
@@ -64,6 +56,7 @@ body{
     line-height: 180px;
     float: left;
 }
+ <!--Helen did this-->
 
 .div {
     margin: 0;
@@ -72,6 +65,7 @@ body{
 
 li{
     font-family: sans-serif;
+
 }
 
 h1{
@@ -79,8 +73,7 @@ h1{
     float: right;
     position:relative;
     left:-50%;
-    text-align:center;
-}
+    text-align:center;}
 
 h2{
     font-family:sans-serif;
@@ -88,5 +81,4 @@ h2{
     position:relative;
     left:-15%;
     line-height: 50px;
-    text-align:center;
-}
+    text-align:center;}
