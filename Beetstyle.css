@@ -4,17 +4,17 @@ ul{
     list-style-type:none;
 }
 
-.wrapper{
-    background-color: #e6b3cc;
-    width: 900px;
-    height: 1000px;
-}
-
 body{
     background-color: #e6b3cc;
     float: right;
     position:relative;
     right: 25%;
+}
+
+.wrapper{
+    background-color: #e6b3cc;
+    width: 900px;
+    height: 1000px;
 }
 
 #Home{
