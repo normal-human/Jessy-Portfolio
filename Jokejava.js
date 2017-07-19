@@ -1,6 +1,6 @@
+// Task 1: use .html to change the text in joke-1 to "Nacho Cheese"
 $("#joke-1").click( function(){
-   // Task 1: use .html to change the text in joke-1 to "Nacho Cheese"
-   $("#joke-1").html("Nacho Cheese");
+$("#joke-1").html("Nacho Cheese");
 });
 
 // Task 2: use .append to add a paragraph with "It gets jalapeño face!" in it.
