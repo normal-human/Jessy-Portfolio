@@ -4,9 +4,11 @@ body {
 
 #wrapper{
     width:950px;
-    height: 1000px;
-    margin:0;
+    height: 1081px;
+    font-family: "Arial Black", Gadget, sans-serif;
     padding:0;
+    margin: auto;
+    border: 1px solid black;
 }
 
 #nav {
@@ -24,6 +26,7 @@ body {
     height:480px;
     float: left;
     margin: 20px 0 20px 20px;
+    text-align: center;
     background-color: #fcecf0;
     border: 1px solid #892841;
 }
@@ -119,4 +122,17 @@ body {
     height: 150px;
     background-color: #ef8ea7;
     clear: both;
+}
+.foot-img {
+    height:150px;
+    width:300px;
+    float: left;
+}
+.foot-text{
+    font-size:12px;
+}
+#exampleSlider{
+    list-style-type: none;
+    margin:0;
+    padding:0;
 }
