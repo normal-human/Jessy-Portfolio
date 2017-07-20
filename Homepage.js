@@ -26,21 +26,21 @@ $(function () {
 });
 
 $("#link1").click(function(){
-   window.location.href='https://normal-human.github.io/Jessy-Portfolio/Beets';
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Hackone', 'Hackone');
 });
 
 $("#link2").click(function(){
-   window.location.href='https://normal-human.github.io/Jessy-Portfolio/ChineseThought';
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Beets', 'Beets');
 });
 
 $("#link3").click(function(){
-   window.location.href='https://normal-human.github.io/Jessy-Portfolio/Hackone';
+    window.open('https://normal-human.github.io/Jessy-Portfolio/ChineseThought', 'Informative');
 });
 
 $("#link4").click(function(){
-   window.location.href='https://normal-human.github.io/Jessy-Portfolio/Jokes';
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Jokes', 'Jokes');
 });
 
 $("#link5").click(function(){
-   window.location.href='https://normal-human.github.io/Jessy-Portfolio/Truths';
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Truths', 'Two Truths');
 });
