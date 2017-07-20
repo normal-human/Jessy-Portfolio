@@ -1,52 +1,46 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Jessy's Website</title>
-        <link rel = "stylesheet" type = "text/css" href = "Homepage.css">
-    </head>
-    <body>
-        <div id="wrapper">
-        
-            <div id="nav"><h1 id="nav-text">Jessy's Website</h1></div>
-            
-            <div id="left">
-                <h1 id="link-head">Links</h1>
-                <button class="links" id="link1">Hackathon 1</button>
-                <button class="links" id="link2">Hackathon 2</button>
-                <button class="links" id="link3">Informative</button>
-                <button class="links" id="link4">Jokes Page</button>
-                <button class="links" id="link5">Two Truths</button>
-                <button class="links" id="link6">link 6</button>
-                <button class="links" id="link7">link 7</button>
-                <button class="links" id="link8">link 8</button>
-                <button class="links" id="link9">link 9</button>
-            </div>
-            
-            <div id="right"><ul id="exampleSlider">
-                    <li><img src="http://winterwoodtutorsblog.co.uk/wp-content/uploads/2016/04/mountain-800x535-740x480.jpg" alt="" /></li>
-                    <li><img src="http://blog.ebayimg.com/motors/blog/wp-content/uploads/2013/01/2014-Infiniti-Q50-Sedan-703x400-740x480.jpg" alt="" /></li>
-                    <li><img src="http://cdn.cartoq.com/wp-content/uploads/2015/08/Knight-Auto-Customizers-KTM-Duke-200-11.jpg" alt="" /></li>
-            </ul></div>
-            
-            <div class="footer">
-                <img src="https://99robots.com/wp-content/uploads/2013/10/html.jpg" alt="html" class="foot-img">
-                <h3 class="foot-head">HTML</h3>
-                <p class="foot-text">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web. Web browsers receive HTML documents from a webserver or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-            </div>
-                
-            <div class="footer">
-                <img src="https://99robots.com/wp-content/uploads/2013/10/html.jpg" alt="html" class="foot-img">
-                <h3 class="foot-head">CSS</h3>
-                <p class="foot-text">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media.</p>
-            </div>
-            
-            <div class="footer">
-                <img src="https://99robots.com/wp-content/uploads/2013/10/html.jpg" alt="html" class="foot-img">
-                <h3 class="foot-head">JavaScript</h3>
-                <p class="foot-text">JavaScript, often abbreviated as JS, is a high-level, dynamic, weakly typed, object-based, multi-paradigm, and interpreted client-side programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine.</p>    
-            </div>
-        </div>
-    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script type = "text/javascript" src = "Homepage.js"></script>
-    </body>
-</html>
+$(function () {
+
+    var change_img_time     = 3000; 
+    var transition_speed    = 200;
+
+    var simple_slideshow    = $("#exampleSlider"),
+        listItems           = simple_slideshow.children('li'),
+        listLen             = listItems.length,
+        i                   = 0,
+
+        changeList = function () {
+
+            listItems.eq(i).fadeOut(transition_speed, function () {
+                i += 1;
+                if (i === listLen) {
+                    i = 0;
+                }
+                listItems.eq(i).fadeIn(transition_speed);
+            });
+
+        };
+
+    listItems.not(':first').hide();
+    setInterval(changeList, change_img_time);
+
+});
+
+$("#link1").click(function(){
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Hackone', 'Hackone');
+});
+
+$("#link2").click(function(){
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Beets', 'Beets');
+});
+
+$("#link3").click(function(){
+    window.open('https://normal-human.github.io/Jessy-Portfolio/ChineseThought', 'Informative');
+});
+
+$("#link4").click(function(){
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Jokes', 'Jokes');
+});
+
+$("#link5").click(function(){
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Truths', 'Two Truths');
+});
