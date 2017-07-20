@@ -25,22 +25,22 @@ $(function () {
 
 });
 
-$('link1').click(function(){
+$("#link1").click(function(){
    window.location.href='https://normal-human.github.io/Jessy-Portfolio/Beets';
 });
 
-$('button selector').click(function(){
+$("#link2").click(function(){
    window.location.href='https://normal-human.github.io/Jessy-Portfolio/ChineseThought';
 });
 
-$('button selector').click(function(){
+$("#link3").click(function(){
    window.location.href='https://normal-human.github.io/Jessy-Portfolio/Hackone';
 });
 
-$('button selector').click(function(){
+$("#link4").click(function(){
    window.location.href='https://normal-human.github.io/Jessy-Portfolio/Jokes';
 });
 
-$('button selector').click(function(){
+$("#link5").click(function(){
    window.location.href='https://normal-human.github.io/Jessy-Portfolio/Truths';
 });
