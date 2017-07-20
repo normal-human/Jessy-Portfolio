@@ -24,3 +24,23 @@ $(function () {
     setInterval(changeList, change_img_time);
 
 });
+
+$('link1').click(function(){
+   window.location.href='https://normal-human.github.io/Jessy-Portfolio/Beets';
+});
+
+$('button selector').click(function(){
+   window.location.href='https://normal-human.github.io/Jessy-Portfolio/ChineseThought';
+});
+
+$('button selector').click(function(){
+   window.location.href='https://normal-human.github.io/Jessy-Portfolio/Hackone';
+});
+
+$('button selector').click(function(){
+   window.location.href='https://normal-human.github.io/Jessy-Portfolio/Jokes';
+});
+
+$('button selector').click(function(){
+   window.location.href='https://normal-human.github.io/Jessy-Portfolio/Truths';
+});
