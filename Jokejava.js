@@ -1,15 +1,15 @@
 // Task 1: use .html to change the text in joke-1 to "Nacho Cheese"
-$("#joke-1").click( function(){
+$("#button1").click( function(){
 $("#joke-1").html("Nacho Cheese");
 });
 
 // Task 2: use .append to add a paragraph with "It gets jalapeño face!" in it.
-$("#joke-2").click( function(){
+$("#button2").click( function(){
 $("#joke-2").html("He cracks himself up");
 });
 
 // Task 3: Create a click handler that appends a paragraph with "It was two-tired" in it.
-$("#joke-3").click( function(){
+$("#button3").click( function(){
 $("#joke-3").html("It was two-tired");
 });
 
