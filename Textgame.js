@@ -8,6 +8,11 @@ $("#right3").hide();
 $("#right4").hide();
 $("#right5").hide();
 $("#right6").hide();
+$("#forward2").hide();
+$("#forward3").hide();
+$("#forward4").hide();
+$("#forward5").hide();
+
 
 $("button").click(function() {
     var height = $("#container").height() + 30;
@@ -141,20 +146,75 @@ $("#right1").click(function() {
                         $("#right6").hide();
                         $("#hinkypunk1-5").show();
                     });
+        $("#not-polite").click(function() {
+            $("#question").append("<p>Suddenly the noise of hooves fills the air and the centaur herd appears before you. Bane stands at the forfront. 'What are you doing here human? You have no place in our forest.'</p>");
+            $("#question1").html("<p>The centaurs all snort at this and many get a better grip on their bowstrings. You grip your wand, ready to fight. Suddenly Hagrid comes through the trees. He had been planning to ask the centaurs for help finding the unicorn. He ends up having to spend his time trying to get them to calm down, and immediately escorts you from the forest. You end up alive, but Hagrid is very disappointed in you. Looks like he won't be inviting you over for rock cakes any time soon.</p>");
+            $("#right3").hide();
+            $("#hinkypunk1-5").show();
+        });
     $("#turn-around").click(function() {
         $("#question").append("<p id='right1'>This leads you into a deeper, darker part of the forest. There doesn't seem to be much around besides normal small forest creatures. However, you have an eery sense that you are being watched. As you head further, you begin to see signs of habitation: remnants of fires with strange smells and sticks arranged for divination What do you do?</p>");
-        $("#question1").html("<p>Suddenly the noise of hooves fills the air and the centaur herd appears before you. Bane stands at the forfront. 'What are you doing here human? You have no place in our forest.'</p>");
+        $("#question1").html("<p>Ok you fraidy cat. Hopefully the injured unicorn isn't this way. Hopefully you aren't abandoning it to its fate just because you're afraid of the dark. Back to start you go.</p>");
         $("#right2").hide();
-        $("#right3").show();
+        $("#hinkypunk1-5").show();
     });
 
-$("#forward1").click(function() {
-    $("#question").css("color", "grey");
-    $("#question").css("font-style", "italic");
-    $("#text").append("<p id='forward1'>You're heading into possibly the darkest part of the forest. The tree branches become so thick and low that you have to start bending down to keep moving forward. You walk right through a cobweb. Gross! Everything seems still, the forest animals are few and far between. Keep going?<p>");
-    $("#choices1").hide();
-});
 
+$("#forward1").click(function() {
+    $("#question1").append("<p id='forward1'>You're heading into possibly the darkest part of the forest. The tree branches become so thick and low that you have to start bending down to keep moving forward. You walk right through a cobweb. Gross! Everything seems still, the forest animals are few and far between. Keep going?<p>");
+    $("#choices1").hide();
+    $("#forward2").show();
+});
+    $("#yes").click(function() {
+        $("#question").append("<p id='right1'>You're heading into possibly the darkest part of the forest. The tree branches become so thick and low that you have to start bending down to keep moving forward. You walk right through a cobweb. Gross! Everything seems still, the forest animals are few and far between. Keep going?</p>");
+        $("#question1").html("<p>You catch a glimpse of movement, but it's only a spider. You're starting to get creeped out. You feel something on your back. Another spider!</p>");
+        $("#forward2").hide();
+        $("#forward3").show();
+    });
+        $("#squash").click(function() {
+            $("#question").append("<p>You catch a glimpse of movement, but it's only a spider. You're starting to get creeped out. You feel something on your back. Another spider!</p>");
+            $("#question1").html("<p>Phew that was so gross. As you're wiping spider guts off of your hand you come to a clearing. You look up to see eight jet black eyes as big as golf balls right in front of your face. You jump back in surprise and draw your wand. What spell do you use?</p>");
+            $("#forward3").hide();
+            $("#forward4").show();
+        });
+            $("#accio").click(function() {
+                $("#question").append("<p>Phew that was so gross. As you're wiping spider guts off of your hand you come to a clearing. You look up to see eight jet black eyes as big as golf balls right in front of your face. You jump back in surprise and draw your wand. What spell do you use?</p>");
+                $("#question1").html("<p>You don't have a ford anglia! They were discontinued in 1967! Your spell is useless. I'm sorry to say that the spiders have you surrounded and you meet your untimely end...</p>");
+                $("#forward4").hide();
+                $("#hinkypunk1-5").show();
+            });
+            $("#arania").click(function() {
+                $("#question").append("<p>Phew that was so gross. As you're wiping spider guts off of your hand you come to a clearing. You look up to see eight jet black eyes as big as golf balls right in front of your face. You jump back in surprise and draw your wand. What spell do you use?</p>");
+                $("#question1").html("<p>It's not much but it's enough to keep most of them at bay. They don't seem to want to all gather to attack you. So you take advantage of this small opportunity and beat it out of there! Back to the beginning is better than into a spider's gullet</p>");
+                $("#forward4").hide();
+                $("#hinkypunk1-5").show();
+            });
+        $("#brush").click(function() {
+            $("#question").append("<p>You catch a glimpse of movement, but it's only a spider. You're starting to get creeped out. You feel something on your back. Another spider!</p>");
+            $("#question1").html("<p>The spider scuttles away unharmed. You warily move forward and come to a clearing.  You see giant spiders hanging from the trees. You were half expecting this. You try to ask them about the unicorn but they just hiss at you and make aggressive movements with their pincers. What do you do? (run, stand your ground)</p>");
+            $("#forward3").hide();
+            $("#forward5").show();
+        });
+            $("#run1").click(function() {
+                $("#question").append("<p>The spider scuttles away unharmed. You warily move forward and come to a clearing.  You see giant spiders hanging from the trees. You were half expecting this. You try to ask them about the unicorn but they just hiss at you and make aggressive movements with their pincers. What do you do?</p>");
+                $("#question1").html("<p>Good idea. Those spiders are the next level of dangerous creatures. Back to start!</p>");
+                $("#forward5").hide();
+                $("#hinkypunk1-5").show();
+            });
+            $("#stand").click(function() {
+                $("#question").append("<p>The spider scuttles away unharmed. You warily move forward and come to a clearing.  You see giant spiders hanging from the trees. You were half expecting this. You try to ask them about the unicorn but they just hiss at you and make aggressive movements with their pincers. What do you do?</p>");
+                $("#question1").html("<p>You draw your wand. What spell do you use?</p>");
+                $("#forward5").hide();
+                $("#forward4").show();
+            });
+    $("#no").click(function() {
+        $("#question").append("<p id='right1'>You're heading into possibly the darkest part of the forest. The tree branches become so thick and low that you have to start bending down to keep moving forward. You walk right through a cobweb. Gross! Everything seems still, the forest animals are few and far between. Keep going?</p>");
+        $("#question1").html("<p>Ok you fraidy cat. Hopefully the injured unicorn isn't this way. Hopefully you aren't abandoning it to its fate just because you're afraid of the dark. Back to start you go.</p>");
+        $("#forward2").hide();
+        $("#hinkypunk1-5").show();
+    });        
+            
+            
 $("#backward1").click(function() {
     $("#question").css("color", "grey");
     $("#question").css("font-style", "italic");
