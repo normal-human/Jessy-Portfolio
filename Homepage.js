@@ -44,3 +44,7 @@ $("#link4").click(function(){
 $("#link5").click(function(){
     window.open('https://normal-human.github.io/Jessy-Portfolio/Truths', 'Two Truths');
 });
+
+$("#link6").click(function(){
+    window.open('https://normal-human.github.io/Jessy-Portfolio/Textgame');
+});
