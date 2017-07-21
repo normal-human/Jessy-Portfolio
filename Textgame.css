@@ -1,4 +1,4 @@
-#title{
+#title1{
     padding:0;
     text-align: center;
 }
@@ -8,35 +8,18 @@
     text-align: center;
 }
 
-#table{
-    margin: auto;
-    padding:0;
-    text-align: center;
-}
-
-#container {
-  width: 100px;
-  height: 10px;
-  text-align: center;
-  background-color: pink;
-  position: relative;
-  float: right;
-}
-
 #choices{
     float: left;   
 }
 
-#placeholder{
-        width: 200px;
-}
-#progressbar{
-    float: right;
-}
 #question{
     text-align: right;    
 }
 
 #question1{
     text-align: left;    
+}
+
+#buttons{
+    text-align: center;    
 }
