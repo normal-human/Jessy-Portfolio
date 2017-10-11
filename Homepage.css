@@ -1,138 +1,123 @@
-body {
-    background-color: #f9d9e1;   
+input[type=text] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://i.imgur.com/s6TANEf.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+input[type=text1] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 0px 10px 0px 0px;
+    font-size: 16px;
+    float: right;
+    background-color: white;
+    background-image: url('http://i.imgur.com/s6TANEf.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
 }
 
-#wrapper{
-    width:950px;
-    height: 1081px;
-    font-family: "Arial Black", Gadget, sans-serif;
-    padding:0;
-    margin: auto;
-    border: 1px solid black;
-}
-
-#nav {
-    width: 950px;
+.dropbtn {
+    background-color: rgb(70, 162, 68);
+    vertical-align: top;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
     height: 50px;
-    background-color: #e5446d;
-    text-align: center;
-}
-#nav-text {
-    color: #5b1b2b;
+    width: 180px;
+    border-radius: 5px;
 }
 
-#left {
+.dropdown-content {
+    display: none;
+  
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    border: none;
     width: 150px;
-    height:480px;
-    float: left;
-    margin: 20px 0 20px 20px;
-    text-align: center;
-    background-color: #fcecf0;
-    border: 1px solid #892841;
 }
 
-#link-head{
-    height: 30px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 25px;
+/*.dropdown-content a:hover {background-color: #f1f1f1}*/
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
-.links{
-    border: 0;
-    background: white;
-    text-align: center;
-    width: 150px;
+/*.dropbtn:hover {background-color:rgb(70, 147, 0)}*/
+
+table {
+    width: 100%;
+}
+
+th {
     height: 50px;
+}
+table {
+    border-collapse: collapse;
+}
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 0px 0px; /* Some padding */
+    width: 140px;
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    border-radius: 5px;
     font-size: 15px;
 }
-#link1 {
-    background-color: #f9d9e1;
-}
-#link1:hover {
-    background-color: #ce3d62;
-    color: white;
-}
-#link2 {
-    background-color: #f7c6d3;
-}
-#link2:hover {
-    background-color: #ce3d62;
-    color: white;
-}
-#link3 {
-    background-color: #f4b4c4;
-}
-#link3:hover {
-    background-color: #ce3d62;
-    color: white;}
-#link4 {
-    background-color: #f2a1b6;
-}
-#link4:hover {
-    background-color: #ce3d62;
-    color: white;}
-#link5 {
-    background-color: #ef8ea7;
-}
-#link5:hover {
-    background-color: #ce3d62;
-    color: white;}
-#link6 {
-    background-color: #ec7c98;
-}
-#link6:hover {
-    background-color: #ce3d62;
-    color: white;}
-#link7 {
-    background-color: #ea698a;
-}
-#link7:hover {
-    background-color: #ce3d62;
-    color: white;}
-#link8 {
-    background-color: #e7567b;
-}
-#link8:hover {
-    background-color: #ce3d62;
-    color: white;}
-#link9 {
-    background-color: #e5446d;
-}
-#link9:hover {
-    background-color: #ce3d62;
-    color: white;}
 
-#right {
-    width: 740px;
-    height:480px;
-    float: right;
-    margin: 20px 20px 20px 0;
-}
-
-#title{
-    background: #a2a2a2;
-    width: 900px;
-    margin: 0;
-    padding: 0;
-}
-
-.footer {
-    width: 950px;
-    height: 150px;
-    background-color: #ef8ea7;
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
     clear: both;
+    display: table;
 }
-.foot-img {
-    height:150px;
-    width:300px;
-    float: left;
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
 }
-.foot-text{
-    font-size:12px;
+
+/* Add a background color on hover */
+.btn-group .button:hover {
+    background-color: #3e8e41;
 }
-#exampleSlider{
-    list-style-type: none;
-    margin:0;
-    padding:0;
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 225px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button1 {width: 300px;}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+p {
+    font-size: 250%;
+    margin: 0 10px 0 10px;
+    padding: 0 0 0 0;
 }
